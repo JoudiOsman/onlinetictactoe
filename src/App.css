@@ -24,8 +24,73 @@
   color: white;
 }
 
+
+.Grid {
+  background-color: #352D39;
+  width: 80%;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  float:left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Score {
+  background-color: #FFFCF9;
+  width: 20%;
+  height: 100vh;
+  float:right;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+
+.P1Score {
+  background-color: #d3771c;
+  width: 50%; 
+  height: 20vh;
+  display:flex;
+  align-self: flex-start;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  color: white;
+}
+
+.P2Score {
+  background-color: #3E78B2;
+  width: 50%; 
+  height: 20vh;
+  align-self: flex-start;
+  display:flex;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  color: white;
+}
 .App-link {
   color: #61dafb;
+}
+
+.Button {
+  background-color: #9CFC97; /* Green */
+  width: 100%; 
+  height: 20vh;
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  align-items:center;
+  text-decoration: none;
+  display: flex;
+  align-self: flex-end;
+  font-size: 44px;
+  border-radius: 15px;
 }
 
 @keyframes App-logo-spin {
